@@ -1,0 +1,6 @@
+{
+  "name": "Skrit-bit: Pāṇinian ITP Compiler & Tier-0 VM",
+  "description": "Interactive Pāṇini-inspired functional programming language compiler and Tier-0 VM showcase featuring Śiva Sūtra bitmask lexing, Anuvṛtti context flow, and Mokṣa memory mutation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
