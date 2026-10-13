@@ -1,0 +1,10 @@
+/**
+ * Tier-0 consonant predicate: true iff character belongs to HAL (हल्) class.
+ */
+export function isConsonantChar(c: string): boolean {
+  const idx = startIdx(c);
+  if (idx === 255) return false;
+
+  const bit = 1n << BigInt(idx);
+  return (bit & MASK_HAL) !== 0n;
+}
