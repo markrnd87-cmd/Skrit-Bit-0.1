@@ -1,0 +1,12 @@
+// src/skrit/lexer.ts (add near MASK_AC / MASK_HAL)
+
+/**
+ * Tier-0 vowel predicate: true iff character belongs to AC (अच्) class.
+ */
+export function isVowelChar(c: string): boolean {
+  const idx = startIdx(c);
+  if (idx === 255) return false;       // not in your Siva-Sutra table
+
+  const bit = 1n << BigInt(idx);
+  return (bit & MASK_AC) !== 0n;
+}
