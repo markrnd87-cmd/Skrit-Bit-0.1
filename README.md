@@ -1,6 +1,7 @@
 # Skrit-Bit
 
 Skrit-bit is a dependently typed functional programming language and Interactive Theorem Prover (ITP) built on the architectural blueprint of Pāṇini's Aṣṭādhyāyī.[cite: 1, 2, 4] By mapping ancient Sanskrit grammatical algorithms directly to modern compiler theory, Skrit-bit achieves mathematical rigor, order-independent pattern matching, and highly optimized bare-metal execution.[cite: 1, 2, 4]
+<img width="765" height="1024" alt="image" src="https://github.com/user-attachments/assets/33f20136-f00b-4909-858c-8b51daf3a873" />
 
 ## Core Architecture
 
