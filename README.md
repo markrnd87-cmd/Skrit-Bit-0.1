@@ -28,3 +28,5 @@ The current repository is a Tier-0 experimental language and stack VM written pr
 ## Research & Expansion Goals
 
 Skrit-Bit-0.1 is currently an operational prototype with strong semantic motivations.[cite: 3] Future development aims to expand the Interactive Theorem Prover (ITP) capabilities by integrating formal context-extension judgements and exploring a Rust back-end to implement a verified subset of the VM using native `Rc` and `Arc` memory disciplines.[cite: 3]
+
+Notebook link:  https://notebook.google.com/notebook/7585b5fa-d626-4c13-883c-0b9656d309ad
